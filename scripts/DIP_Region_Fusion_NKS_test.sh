@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python DIP_L0_Region_Fuse.py --Lambda 0.025 --Beta 2.25 --root_path './data/NKS/test_set/' --fname S1_T2.png --num_iter 100 --inner_iter 25 --lr 0.001

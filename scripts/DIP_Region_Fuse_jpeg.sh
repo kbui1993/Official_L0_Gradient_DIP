@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python DIP_L0_Region_Fuse.py --Lambda 0.025 --Beta 2.00 --root_path './data/clipart/corrupted/' --fname clip1.jpg --num_iter 100 --inner_iter 25 --lr 1e-03
